@@ -3,7 +3,7 @@
 > [!NOTE]
 > La parte tutorial de github me la dejo por si se me olvida 
 >
-> ### Crear repositorio local y conectarlo al de github
+> ## Crear repositorio local y conectarlo al de github
 > (1) En VS escribir en el terminal, en el directorio de trabajo: 
 > ```bash
 > git init
@@ -44,7 +44,8 @@
 > > ```bash
 > > git pull
 > > ```
-> ### Acceder como un contribuidor
+> 
+> ## Acceder como un contribuidor
 > En el directorio de trabajo: 
 > ```bash
 > git clone https://github.com/alyz17/PuertaGrandeWeb.git
