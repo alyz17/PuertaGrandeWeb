@@ -54,6 +54,13 @@
 > Una vez clonado se puede seguir a partir del paso (5)
 
 ## HTML
+1. `index.html`: Muestra la página principal del restaurante
+2. `info.hmtl`: Muestra la ubicación del restaurante, incluyendo maps para navegar, y el teléfono para contactar
+3. `menu.hmtl`: Muestra el menú
+4. `reserva.hmtl`: Muestra la opción para reservar (fecha, hora, número de personas)
 ## CSS
+`styles.css`: Para que quede estético y minimalista el diseño final de la página
 ## JavaScript
+`scripts.js`: Lógica para interactuar con la página (movimiento de imágenes, reserva)
 ## Despliegue
+Para manejar el uso de emails al hacer la reserva
