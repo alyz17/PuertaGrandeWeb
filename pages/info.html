@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Información - Puerta Grande</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="../css/info_style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <!-- CABECERA -->
     <header>
         <div class="header-content">
+
             <div class="logo">
                 <img src="../images/referenceImages/hierro-puerta-copia-247x273.png" alt="Logo Puerta Grande">
             </div>
-            <nav>
+            
+            <nav id="nav-menu">
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="info.html">Información</a></li>
@@ -20,37 +26,50 @@
                     <li><a href="reserva.html">Reserva</a></li>
                 </ul>
             </nav>
+            <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+
         </div>      
     </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
     <main>
-        <section id="portada">
-            <h1>Información</h1>
+
+        <section id="cover">
+            <p class="cover__title">Información</p>
+            <img class='cover__background' src="../images/referenceImages/vino-en-restaurante-puerta-grande.-1920x1920.webp">
         </section>
+        
         <section id="contacto">
             <div class="contact">
-                <h2>Contacto</h2>
-                <div class="phone number">
-
-                </div>
+                <h2 class="contact__title">Contacto</h2>
+                <p class="contact__text">Puedes contactarnos llamando al +34 999 999 999</p>
             </div>
             <div class="contact-photo">
-
+                <img src="">
             </div>
         </section>
-        <section id="ubicación">
-            <h2>Nuestros Servicios</h2>
-            <div class="address">
-
+        
+        <section id="location">
+            <h2 class="location__title">Ubicación</h2>
+            <div class="location-address">
+                <p class="location-address__text">Está permitido el acceso en coche a la zona centro de Madrid para ir los parkings más cercanos a Puerta Grande, sin recibir multa</p>
             </div>
-            <div class="plugin maps">
-
+            <div class="location_maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.0754140419904!2d-3.6668039246596393!3d40.42932897143746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228b36291d2ed%3A0x7860a1e734da5a5!2sRestaurante%20en%20las%20Ventas%20Puerta%20Grande%20Madrid!5e0!3m2!1ses!2ses!4v1720466198634!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
+
     </main>
+
+    <!-- PIE DE PÁGINA -->
     <footer>
         <div class="footer-content">
             <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <!-- JavaScript  -->
+    <script src="../js/header.js"></script>
+
 </body>
 </html>
