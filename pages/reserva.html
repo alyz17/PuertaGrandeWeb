@@ -4,24 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reserva - Puerta Grande</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/referenceImages/hierro-puerta-copia-247x273.webp">
+    <link rel="stylesheet" href="/css/header_footer.css">
+    <link rel="stylesheet" href="/css/reserva_style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- CABECERA -->
     <header>
         <div class="header-content">
-            <div class="logo">
-                <img src="../images/referenceImages/hierro-puerta-copia-247x273.png" alt="Logo Puerta Grande">
+            <p>C/ Pedro Heredia 23, 28028 Madrid</p>
+            <div class="header-icons">
+                <a href='https://www.instagram.com/puertagrande.madrid' target="_blank"><img src="//cdn.icon-icons.com/icons2/792/PNG/512/INSTAGRAM_icon-icons.com_65535.png"></a>
+                <a href='https://www.facebook.com/BarRestaurantePG' target="_blank"><img src="//cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png"></a>
+                <a href='tel:+34669710919' target="_blank"><img src="https://cdn.icon-icons.com/icons2/37/PNG/512/phone_4307.png"></a>
+                <a href="https://www.tripadvisor.es/Restaurant_Review-g187514-d2073931-Reviews-Puerta_Grande_Restaurante-Madrid.html" target="_blank"><img src="https://cdn.icon-icons.com/icons2/3781/PNG/512/tripadvisor_icon_232019.png"></a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="info.html">Información</a></li>
-                    <li><a href="menu.html">Menú</a></li>
-                    <li><a href="reserva.html">Reserva</a></li>
-                </ul>
-            </nav>
-        </div>      
     </header>
+
+    <!-- NAVEGADOR -->
+    <div id="nav">
+        <div class="nav-content">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../images/referenceImages/hierro-puerta-copia-247x273.webp" alt="Logo Puerta Grande">
+                    <h1 class="logo_title">Puerta Grande</h1>
+                </a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+            
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="info.html">CONTACTO</a></li>
+                    <li><a href="menu.html">MENÚ</a></li>
+                    <li><a href="reserva.html">RESERVA</a></li>
+                </ul>
+            </nav>  
+
+        </div>      
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
     <main>
         <section id="desplegable personas">
             <div class="intro">
@@ -39,10 +67,36 @@
             </div>
         </section>
     </main>
+    <!-- PIE DE PÁGINA -->
     <footer>
         <div class="footer-content">
-            <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+            
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="info.html">CONTACTO</a></li>
+                    <li><a href="menu.html">MENÚ</a></li>
+                    <li><a href="reserva.html">RESERVA</a></li>
+                </ul>
+            </nav> 
+            <div class="footer-bottom">
+                <p>&copy; Copyright 2024 Restaurante Puerta Grande</p>
+
+                <div class="footer-icons">
+                    <a href='https://www.instagram.com/puertagrande.madrid' target="_blank"><img src="//cdn.icon-icons.com/icons2/792/PNG/512/INSTAGRAM_icon-icons.com_65535.png"></a>
+                    <a href='https://www.facebook.com/BarRestaurantePG' target="_blank"><img src="//cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png"></a>
+                    <a href='tel:+34669710919' target="_blank"><img src="//cdn.icon-icons.com/icons2/520/PNG/512/Phone-call_icon-icons.com_51956.png"></a>
+                    <a href="https://www.tripadvisor.es/Restaurant_Review-g187514-d2073931-Reviews-Puerta_Grande_Restaurante-Madrid.html" target="_blank"><img src="https://cdn.icon-icons.com/icons2/3781/PNG/512/tripadvisor_icon_232019.png"></a>
+                </div>
+                
+            </div>            
+
         </div>
     </footer>
+
+    <!-- JavaScript  -->
+    <script src="../js/header.js"></script>
+
 </body>
 </html>
+
