@@ -19,7 +19,9 @@ body {
 #nav {
     padding: 10px 20px;
     background-color: #c9c4c4;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
  .nav-content {
@@ -111,7 +113,6 @@ body {
         opacity: 1;
     }
     .menu-toggle.active {
-          display: flex;
           content: "✖";
           font-size: 28px;
     } 
