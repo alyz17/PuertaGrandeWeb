@@ -3,19 +3,33 @@
     <head>
         <title>My Page Title</title>
         <link rel="shortcut icon" type="image/x-icon" href="./images/hierro-puerta-copia-247x273.webp">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header style=" background: black; color: white">
-            Aqui pondríamos teléfono, dirección y enlace a redes sociales
-            
+        <header>
+            <div class="header-content">
+    
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../images/referenceImages/hierro-puerta-copia-247x273.webp" alt="Logo Puerta Grande">
+                    </a>
+                </div>
+    
+                <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+                
+                <nav id="nav-menu">
+                    <ul>
+                        <li><a href="../index.html">INICIO</a></li>
+                        <li><a href="info.html">INFORMACIÓN</a></li>
+                        <li><a href="menu.html">MENÚ</a></li>
+                        <li><a href="reserva.html">RESERVA</a></li>
+                    </ul>
+                </nav>  
+    
+            </div>      
         </header>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="reserva.html">Reserva</a>
-            <a href="menu.html">Menú</a>
-            <a href="informacion.html">Información</a>
-        </nav>
-        <section>
+        
+        <section class="title">
             <h1>
                 Restaurante Puerta Grande
             </h1>
