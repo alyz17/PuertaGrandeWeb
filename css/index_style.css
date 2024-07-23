@@ -1,0 +1,66 @@
+/* CONTACTOS - PORTADA */
+#cover {
+    position: relative;
+    width: 100%;
+    background: url('../images/referenceImages/fondo-vasos.webp') no-repeat center center;
+    background-size: cover; /* Esto hará que la imagen cubra toda la sección */
+  }
+  
+  
+  .cover__title {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 5vw; 
+    letter-spacing: 0.05em;
+    text-shadow: 0.1em 0.1em 35px #fff;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+ .photo {
+    padding: 5%;
+ }
+
+ #photo1 {
+    width: 2000px;
+ }
+
+ #photo2 {
+    width: 1000px;
+ }
+
+ #photo3 {
+    width: 3000px;
+ }
+
+
+ .Tertulia-title {
+    font-size: 3em;
+    padding-left: 7%;
+    padding-right: 4%;
+    text-align: center;
+ }
+
+ .index p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: gray;
+    font-size: 1.2em;
+ }
+
+  .index h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: gray;
+    font-size: 2em;
+  }
+
+ .index {
+    padding-left: 7%;
+    padding-right: 4%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+ }
